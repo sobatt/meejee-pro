@@ -1,0 +1,97 @@
+#type-warp {
+  height: 320px;
+  background-color: #ffffff; }
+
+#type, #Numberofworlds, #state {
+  height: 50px;
+  font-size: 20px;
+  color: #000000;
+  line-height: 50px;
+  font-weight: bold;
+  margin-top: 10px; }
+
+#type-next {
+  overflow: hidden; }
+  #type-next p {
+    float: left;
+    margin-right: 40px;
+    line-height: 30px;
+    font-size: 14px; }
+
+#Numberofworlds-next {
+  overflow: hidden; }
+  #Numberofworlds-next p {
+    float: left;
+    margin-right: 40px;
+    line-height: 30px; }
+
+#state-next {
+  overflow: hidden; }
+  #state-next span {
+    display: inline-block;
+    margin-right: 40px;
+    color: #000000;
+    font-size: 14px; }
+
+#content-warp {
+  width: 100%;
+  margin-left: 50px; }
+
+#content-card {
+  width: 586px;
+  height: 290px;
+  background-color: #ffffff;
+  box-shadow: 3px 5px 4px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  float: left;
+  margin-left: 20px;
+  margin-top: 25px; }
+  #content-card img {
+    width: 167px;
+    height: 250px;
+    margin-left: 20px; }
+  #content-card #card-right {
+    margin-left: 20px; }
+    #content-card #card-right #book-title {
+      font-size: 20px;
+      color: #000000; }
+    #content-card #card-right #author {
+      font-size: 14px;
+      color: #999999;
+      margin-top: 8px; }
+    #content-card #card-right #dispration {
+      font-size: 14px;
+      color: #222222;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      margin-top: 8px; }
+    #content-card #card-right #zan {
+      color: #222222;
+      font-size: 14px;
+      margin-top: 8px; }
+      #content-card #card-right #zan img {
+        width: 15px;
+        height: 15px;
+        margin: 0; }
+    #content-card #card-right #leixing {
+      display: flex;
+      margin-top: 20px; }
+      #content-card #card-right #leixing p {
+        margin-right: 30px;
+        box-shadow: 3px 5px 4px 0px rgba(134, 152, 210, 0.4); }
+        #content-card #card-right #leixing p span {
+          border: soild 1px  #187de2;
+          margin-left: 10px;
+          margin-right: 10px;
+          color: #187de2;
+          font-size: 14px;
+          display: inline-block; }
+    #content-card #card-right #update-time {
+      font-size: 14px;
+      color: #999999;
+      margin-top: 20px; }
+
+/*# sourceMappingURL=classification.css.map */

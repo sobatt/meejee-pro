@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,IAAI;EACH,KAAK,ECHI,MAAM;EDIf,MAAM,ECHI,IAAI;EDId,SAAS,ECHG,IAAI;EDIhB,KAAK,ECHI,OAAO;EDIhB,WAAW,ECND,IAAI;EDOd,UAAU,EAAC,kCAA8B;EACzC,aAAa,EAAE,GAAG;;AAEnB,MAAM;EACL,KAAK,ECZI,MAAM;EDaf,MAAM,ECZI,IAAI;EDad,OAAO,EAAE,IAAI;EACb,eAAe,EAAC,YAAY;;AAE7B,YAAU;EACT,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI",
+"sources": ["../../scss/nav.scss","../../scss/Bookdetails/nav.scss"],
+"names": [],
+"file": "nav.css"
+}

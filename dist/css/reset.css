@@ -1,0 +1,78 @@
+div,
+ul,
+li,
+ol,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+dl,
+dd,
+dt,
+a,
+img,
+em,
+span, input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul,
+ol,
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: blue; }
+
+html,
+body {
+  width: 100%;
+  color: #333333;
+  font-family: "Microsoft YaHei";
+  height: 100%;
+  -webkit-text-size-adjust: none;
+  /*-webkit-overflow-scrolling: touch;*/
+  /*overflow-y: scroll;*/
+  /*width: 10rem;*/
+  /*padding-top: constant(safe-area-inset-top);           
+  padding-left: constant(safe-area-inset-left);               
+  padding-right: constant(safe-area-inset-right);             
+  padding-bottom: constant(safe-area-inset-bottom);*/ }
+
+::-webkit-scrollbar-track-piece {
+  background-color: #FFFFFF;
+  -webkit-border-radius: 0; }
+
+::-webkit-scrollbar {
+  width: 0.025rem;
+  height: 0.025rem; }
+
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: #FFFFFF;
+  -webkit-border-radius: 1px;
+  outline: 0.025rem solid #FFFFFF;
+  outline-offset: -0.025rem;
+  border: 0.025rem solid #FFFFFF; }
+
+::-webkit-scrollbar-thumb:hover {
+  height: 50px;
+  background-color: #FFFFFF;
+  -webkit-border-radius: 4px; }
+
+img {
+  display: inline-block; }
+
+.clearFix:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  zoom: 1; }
+
+/*# sourceMappingURL=reset.css.map */

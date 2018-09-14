@@ -1,0 +1,90 @@
+#mypage-warp {
+  width: 900px;
+  float: left;
+  margin-top: 10px;
+  background: #ffffff;
+  margin-left: 20px; }
+  #mypage-warp #mypage-head {
+    margin-top: 30px;
+    height: 60px;
+    background: #ffffff;
+    line-height: 60px;
+    color: #222222;
+    border-bottom: 1px solid #dcdcdc; }
+    #mypage-warp #mypage-head #mypage {
+      float: left;
+      font-size: 20px;
+      text-indent: 20px; }
+
+#mypage-card {
+  margin-top: 20px;
+  overflow: hidden; }
+  #mypage-card img {
+    width: 131px;
+    height: 185px;
+    margin-left: 7px;
+    margin-top: 8px; }
+  #mypage-card input {
+    float: left;
+    margin-top: 80px; }
+  #mypage-card #pagecard-left {
+    float: left;
+    width: 145px;
+    height: 200px;
+    background-color: #dcdcdc;
+    margin-left: 15px; }
+  #mypage-card #pagecard-right {
+    float: left;
+    text-indent: 20px; }
+    #mypage-card #pagecard-right #pagecard-title {
+      font-size: 20px;
+      color: #222222; }
+      #mypage-card #pagecard-right #pagecard-title #reading-time {
+        color: #187de2;
+        font-size: 14px;
+        margin-left: 210px; }
+    #mypage-card #pagecard-right #pass-verfication {
+      font-size: 14px;
+      color: #187de2;
+      margin-top: 10px;
+      border: 1px solid #187de2;
+      width: 140px;
+      height: 26px;
+      line-height: 26px;
+      text-align: center;
+      text-indent: 0;
+      margin-left: 20px;
+      border-radius: 4px;
+      margin-top: 40px; }
+    #mypage-card #pagecard-right #updatedchapter {
+      font-size: 15px;
+      color: #515151;
+      margin-top: 25px; }
+    #mypage-card #pagecard-right #lasttime {
+      color: #ffffff;
+      margin-top: 25px; }
+      #mypage-card #pagecard-right #lasttime span {
+        width: 140px;
+        height: 26px;
+        line-height: 26px;
+        text-align: center;
+        display: inline-block;
+        background-color: #187de2;
+        font-size: 12px;
+        text-indent: 0;
+        border-radius: 5px; }
+
+#border-bottom {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #dcdcdc;
+  margin-top: 20px;
+  text-align: center; }
+  #border-bottom span {
+    width: 20px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 4px;
+    margin-left: 20px; }
+
+/*# sourceMappingURL=hoempage.css.map */

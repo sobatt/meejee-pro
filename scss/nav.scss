@@ -1,0 +1,21 @@
+@import 'Bookdetails/nav';
+
+#nav{
+	width:$navwidth;
+	height:$navheight;
+	font-size:$navfontsize;
+	color:$navcolor;
+	line-height: $navheight;
+	box-shadow:3px 5px 4px 0px rgba(0,0,0,.1);
+	border-radius: 5px;
+}
+#navul{
+	width: $navwidth;
+	height: $navheight;
+	display: flex;
+	justify-content:space-around;
+}
+#navul>img{
+	width: 28px;
+	height: 16px;
+}

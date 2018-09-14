@@ -1,0 +1,90 @@
+@import 'bookshell/mine-left.scss';
+
+#mine-left{
+	width: $mineleft-width;
+	height: $mine-left-height;
+	margin-top: 10px;
+	margin-left: 40px;
+	float: left;
+}
+#user-xuhua{
+	width: 280px;
+	text-align: center;
+	height: 220px;
+	background: url(http://img1.imgtn.bdimg.com/it/u=3644600482,2590386421&fm=26&gp=0.jpg);
+	opacity: 0.6;
+	position: relative;
+	filter: blur(0.8px);
+	-webkit-filter: blur(0.8px);  
+	-ms-filter: blur(0.8px);
+	-moz-filter: blur(0.8px);
+	// border:1px solid #000000;
+}        
+#user-head-warp{
+	width: 280px;
+	text-align: center;
+	height: 220px;
+	color: #ffffff;
+	position: absolute;
+	top: 110px;
+	left: 314px;
+	// opacity: 0.4;
+		p{
+			margin-top: 14px;
+		}
+		#left-userhead{
+			width: $mine-left-userhead-width;
+			margin: auto;
+			position: relative;
+				img{
+					width: $mine-left-userhead-width;
+					height: $mine-left-userhead-width;
+					border-radius: 50%;	
+					margin: auto;
+					margin-top: 30px;	
+					// border:1px solid #000000;
+				}
+		}
+		#left-id{
+			font-size: 13px;
+		}
+		#left-username{
+			text-indent: 25px;
+			img{
+				margin-left: 25px;
+			}
+		}
+	}
+#left-list{
+	text-align: left;
+		// text-indent: 80px;
+		ul{
+			margin-left: 35px;
+			font-size: 20px;
+			color: #222222;
+			li{
+				margin-top: 28px;
+				#xuanzhong{
+					display: inline-block;
+					width: 3px;
+					height: 26px;
+					background: #187de2;
+					margin-left: 0;
+					padding-top: 5px;
+					// margin-left: 15px;
+				}
+			}
+		}
+			img{
+				width: 20px;
+				height: 20px;
+				margin-left: 20px;
+				vertical-align:middle;
+			}
+			span{
+				display: inline-block;
+				margin-left: 15px;
+				padding-top: 5px;
+				vertical-align: middle;
+			}
+}	

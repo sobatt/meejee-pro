@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Withnovel</title>
+	<link rel="stylesheet" href="../dist/css/nav.css">
+	<link rel="stylesheet" href="../dist/css/reset.css">
+	<link rel="stylesheet" href="../dist/css/Bookdetails.css">
+	<link rel="stylesheet" href="../dist/css/classification.css">
+	<link rel="stylesheet" href="../dist/css/sigin.css">
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/slider.js"></script>
+</head>
+	<style>
+	#ehong-code-input{
+		width:42px;
+		letter-spacing:2px;
+		margin:0px 8px 0px 0px;
+	}
+	.ehong-idcode-val{
+		position:relative;
+		padding:1px 4px 1px 4px;
+		top:0px;
+		*top:-3px;
+		letter-spacing:4px;
+		display:inline;
+		cursor:pointer;
+		font-size:16px;
+		font-family:"Courier New", Courier, monospace;
+		text-decoration:none;
+		font-weight:bold;
+	}
+		.slider_div {
+			margin: 0px;
+			padding:0px;
+			width: 527px;
+			height: 60px;
+			border-radius: 0px;
+			
+			margin-bottom: 20px;
+			background-color: #eeeeee;
+		}
+		/*完成验证状态*/
+		.slider_div_succeed {
+			background-color: #d1e5f9;
+		}
+
+		#sliderLock_huakuai{
+			/*border-radius: 50%; */
+			width: 35px;
+			height: 35px;
+			margin: 5px 0px;
+			display: inline-block;
+			z-index: 2;
+			background: url(../static/image/slide.png)no-repeat;
+		}
+
+		#sliderLock_huakuai  div{
+			width: 28px;
+			height: 50px;
+			margin-top:10px;
+			margin-left: 12px;
+			/*background-image: url("../img/sliderlock/sliderlock1.png");*/
+			background-repeat: repeat-x;
+		}
+
+		#sliderLock_status {
+			/*position: absolute;*/
+			margin-top: -38px;
+			/*left:800px;*/
+			font-size: 12px;
+			/*color: #222222;*/
+			color: #999999;
+			/*display: inline-block;*/
+			z-index: 0;
+			text-align: center;
+			-moz-user-select: none; -khtml-user-select: none; user-select: none;
+			/*padding-top: 15px;*/
+		}
+	</style>
+<body>
+	<div id="mask">
+		<div id="sigin-warp" style="display: none">
+			<p id="close"><img src="../static/image/x.png" alt=""></p>
+			<p id="sigin">Sign in</p>
+			<input type="text" id="username" placeholder="Username or Email"><br>
+			<input type="text" id="password" placeholder="Password">
+			<p id="agree"><input type="checkbox">I hade reade and agree to the user service agreement.</p><br>
+			<input type="submit" value='Sign in' id="submit">
+			<p id="yetnumber">Not a number? <span> Sign</span> up now</p>
+		</div>
+		<!-- 注册 -->
+		<div id="register-warp" style="display: block;">
+			<p id="register-close"><img src="../static/image/x.png" alt=""></p>
+			<p id="signup">Sign up</p>
+			<input type="text" id="register-username" placeholder="Email"><br>
+			<input type="text" id="register-password" placeholder="Password">
+			<input type="text" id="register-password-agin" placeholder="Password again">
+			<div id="sliderLock"></div>
+			<script>
+				new SliderLock("#sliderLock",function(){
+				    	// alert("验证成功");
+				 }).init();
+			</script>
+			<p id="register-agree"><input type="checkbox">I hade reade and agree to the user service agreement.</p><br>
+			<input type="submit" value='Sign up' id="register-submit">
+			<p id="register-yetnumber">Already have a account? <span> Sign</span> in now</p>
+		</div>
+		<!-- 找回密码 -->
+		<div id="forget-password" style="display: none;">
+			<p id="forget-close"><img src="../static/image/x.png" alt=""></p>
+			<p id="reset">Reset password</p>
+			<input type="text" id="forget-username" placeholder="Email">
+			<input type="text" id="forget-pass" placeholder="Password">
+			<input type="text" id="forget-password-again" placeholder="Password again">
+			<p id="forget-agree"><input type="checkbox">I hade reade and agree to the user service agreement.</p><br>
+			<input type="submit" value='Submit an appilacation' id="forget-submit">		
+		</div>
+		<!-- 修改昵称 -->
+		<div id="reset-nickname" style="display: none;">
+			<p>Modify the nickname</p>
+			<input type="text" id="nacknme" placeholder="name:jack rollin">
+			<div id="nick-name-center">
+				<div id="nick-yanzheng"><input type="text" id="nick-input" placeholder="Verification Code"></div>
+				<div id="nick-yanzhengma">asda</div>
+				<div id="nick-shuaxin"><img src="../static/image/shuaxin.png" ></div>
+			</div>
+			<div id="nackname-bottom">
+				<span id="nick-submit">Confirm</span>
+				<span id="nick-span">Cancel</span>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div id="nav">
+			<ul id="navul">
+				<li><img src="../static/image/more.png"> All categories</li>
+				<li>Ranking list</li>
+				<li>Stack room</li>
+				<li>Finish</li>
+				<li>Recommend</li>
+				<li>Writer books</li>
+			</ul>
+		</div>	
+			<div id="type-warp">
+				<div id="type">
+					<p>Type</p>
+				</div>	
+				<div id="type-next">
+					<p>All</p> <p>First time</p><p style="color:#59aaff">Look at mee</p><p>everything be all right</p><p>First time</p><p>First </p><p>time</p><p>pover life</p><p>sky</p><p>blue</p><p>hahaha</p><p>pover life</p><p>sky</p><p>blue</p><p>hahaha</p><p>pover life</p><p>sky</p><p>blue</p><p>hahaha</p>
+				</div>
+				<div id="Numberofworlds">
+					<p>Number of worlds</p>
+				</div>
+				<div id="Numberofworlds-next">
+					<p>All</p> <p>0-50,000</p><p style="color:#59aaff">50,000-900,000</p><p>0-50,000</p><p>900,000-200,000</p><p>900,000-200,000</p><p>900,000-200,000</p><p>900,000-200,000</p><p>900,000-200,000</p><p>900,000-200,000</p><p>900,000-200,000</p>
+				</div>	
+				<div id="state">
+					<p>State</p>
+				</div>
+				<div id="state-next">
+					<span>All</span><span></span><span style="color:#59aaff">Finish</span><span>Serialize</span>
+				</div>
+			</div>	
+
+			<div id="content-warp">
+				<div id='content-card'>
+					<img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3698911417,992660513&fm=26&gp=0.jpg" alt="">
+					<div id="card-right">
+						<p id="book-title">Grave notes</p>
+						<p id="author">Author: <span>kasfdhasd</span></p>
+						<p id="dispration">After returning from a special mission abroad, he is forced to accept a job as a bodyguard. He is then tasked with the mission of protecting the powerful (and beautiful) CEO of a multinational company based in Shanghai.</p>
+						<p id="zan"><span>Recommended: </span> <img src="../static/image/meidianzan.png" alt="">124546</p>
+						<div id="leixing"><p><span>Righteous</span></p><p><span>weired</span></div>
+						<p id="update-time"><span>2012-10-25</span> <span>updated</span></p>
+					</div>
+				</div>
+				<div id='content-card'>
+					<img src="../static/image/f3ff1ebcf8cb6b0cf5e00d50c24447ef.jpeg" alt="">
+					<div id="card-right">
+						<p id="book-title">Grave notes</p>
+						<p id="author">Author: <span>kasfdhasd</span></p>
+						<p id="dispration">After returning from a special mission abroad, he is forced to accept a job as a bodyguard. He is then tasked with the mission of protecting the powerful (and beautiful) CEO of a multinational company based in Shanghai.</p>
+						<p id="zan"><span>Recommended: </span> <img src="../static/image/meidianzan.png" alt="">124546</p>
+						<div id="leixing"><p><span>Righteous</span></p><p><span>weired</span></div>
+						<p id="update-time"><span>2012-10-25</span> <span>updated</span></p>
+					</div>
+				</div>
+				<div id='content-card'>
+					<img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=6054483,2951702123&fm=26&gp=0.jpg" alt="">
+					<div id="card-right">
+						<p id="book-title">Grave notes</p>
+						<p id="author">Author: <span>kasfdhasd</span></p>
+						<p id="dispration">After returning from a special mission abroad, he is forced to accept a job as a bodyguard. He is then tasked with the mission of protecting the powerful (and beautiful) CEO of a multinational company based in Shanghai.</p>
+						<p id="zan"><span>Recommended: </span> <img src="../static/image/meidianzan.png" alt="">124546</p>
+						<div id="leixing"><p><span>Righteous</span></p><p><span>weired</span></div>
+						<p id="update-time"><span>2012-10-25</span> <span>updated</span></p>
+					</div>
+				</div>
+				<div id='content-card'>
+					<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3834542473,2137406811&fm=26&gp=0.jpg" alt="">
+					<div id="card-right">
+						<p id="book-title">Grave notes</p>
+						<p id="author">Author: <span>kasfdhasd</span></p>
+						<p id="dispration">After returning from a special mission abroad, he is forced to accept a job as a bodyguard. He is then tasked with the mission of protecting the powerful (and beautiful) CEO of a multinational company based in Shanghai.</p>
+						<p id="zan"><span>Recommended: </span> <img src="../static/image/meidianzan.png" alt="">124546</p>
+						<div id="leixing"><p><span>Righteous</span></p><p><span>weired</span></div>
+						<p id="update-time"><span>2012-10-25</span> <span>updated</span></p>
+					</div>
+				</div>
+				<div id='content-card'>
+					<img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2097013168,652922056&fm=26&gp=0.jpg" alt="">
+					<div id="card-right">
+						<p id="book-title">Grave notes</p>
+						<p id="author">Author: <span>kasfdhasd</span></p>
+						<p id="dispration">After returning from a special mission abroad, he is forced to accept a job as a bodyguard. He is then tasked with the mission of protecting the powerful (and beautiful) CEO of a multinational company based in Shanghai.</p>
+						<p id="zan"><span>Recommended: </span> <img src="../static/image/meidianzan.png" alt="">124546</p>
+						<div id="leixing"><p><span>Righteous</span></p><p><span>weired</span></div>
+						<p id="update-time"><span>2012-10-25</span> <span>updated</span></p>
+					</div>
+				</div>
+				<div id='content-card'>
+					<img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=416415424,1980983727&fm=26&gp=0.jpg" alt="">
+					<div id="card-right">
+						<p id="book-title">Grave notes</p>
+						<p id="author">Author: <span>kasfdhasd</span></p>
+						<p id="dispration">After returning from a special mission abroad, he is forced to accept a job as a bodyguard. He is then tasked with the mission of protecting the powerful (and beautiful) CEO of a multinational company based in Shanghai.</p>
+						<p id="zan"><span>Recommended: </span> <img src="../static/image/meidianzan.png" alt="">124546</p>
+						<div id="leixing"><p><span>Righteous</span></p><p><span>weired</span></div>
+						<p id="update-time"><span>2012-10-25</span> <span>updated</span></p>
+					</div>
+				</div>
+				<div id='content-card'>
+					<img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1811324911,4157271931&fm=26&gp=0.jpg" alt="">
+					<div id="card-right">
+						<p id="book-title">Grave notes</p>
+						<p id="author">Author: <span>kasfdhasd</span></p>
+						<p id="dispration">After returning from a special mission abroad, he is forced to accept a job as a bodyguard. He is then tasked with the mission of protecting the powerful (and beautiful) CEO of a multinational company based in Shanghai.</p>
+						<p id="zan"><span>Recommended: </span> <img src="../static/image/meidianzan.png" alt="">124546</p>
+						<div id="leixing"><p><span>Righteous</span></p><p><span>weired</span></div>
+						<p id="update-time"><span>2012-10-25</span> <span>updated</span></p>
+					</div>
+				</div>
+			</div>
+	</div>	
+</body>
+</html>

@@ -1,0 +1,73 @@
+#mine-left {
+  width: 280px;
+  height: 500px;
+  margin-top: 10px;
+  margin-left: 40px;
+  float: left; }
+
+#user-xuhua {
+  width: 280px;
+  text-align: center;
+  height: 220px;
+  background: url(http://img1.imgtn.bdimg.com/it/u=3644600482,2590386421&fm=26&gp=0.jpg);
+  opacity: 0.6;
+  position: relative;
+  filter: blur(0.8px);
+  -webkit-filter: blur(0.8px);
+  -ms-filter: blur(0.8px);
+  -moz-filter: blur(0.8px); }
+
+#user-head-warp {
+  width: 280px;
+  text-align: center;
+  height: 220px;
+  color: #ffffff;
+  position: absolute;
+  top: 110px;
+  left: 314px; }
+  #user-head-warp p {
+    margin-top: 14px; }
+  #user-head-warp #left-userhead {
+    width: 95px;
+    margin: auto;
+    position: relative; }
+    #user-head-warp #left-userhead img {
+      width: 95px;
+      height: 95px;
+      border-radius: 50%;
+      margin: auto;
+      margin-top: 30px; }
+  #user-head-warp #left-id {
+    font-size: 13px; }
+  #user-head-warp #left-username {
+    text-indent: 25px; }
+    #user-head-warp #left-username img {
+      margin-left: 25px; }
+
+#left-list {
+  text-align: left; }
+  #left-list ul {
+    margin-left: 35px;
+    font-size: 20px;
+    color: #222222; }
+    #left-list ul li {
+      margin-top: 28px; }
+      #left-list ul li #xuanzhong {
+        display: inline-block;
+        width: 3px;
+        height: 26px;
+        background: #187de2;
+        margin-left: 0;
+        padding-top: 5px; }
+  #left-list img {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    vertical-align: middle; }
+  #left-list span {
+    display: inline-block;
+    margin-left: 15px;
+    padding-top: 5px;
+    vertical-align: middle; }
+
+/*# sourceMappingURL=mine-left.css.map */

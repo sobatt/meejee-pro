@@ -1,0 +1,385 @@
+#mask {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed; }
+  #mask #sigin-warp {
+    width: 395px;
+    height: 451px;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 3px 5px 1px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden; }
+    #mask #sigin-warp #close {
+      float: right;
+      margin-right: 20px;
+      margin-top: 15px; }
+    #mask #sigin-warp #sigin {
+      font-size: 24px;
+      color: #222222;
+      text-align: center;
+      margin-top: 33px;
+      text-indent: 40px; }
+    #mask #sigin-warp #username, #mask #sigin-warp #password {
+      width: 314px;
+      height: 40px;
+      margin-top: 35px;
+      border-radius: 4px;
+      outline: none;
+      border: 1px solid #b0b0b0;
+      margin-left: 42px;
+      color: #b0b0b0;
+      text-indent: 9px;
+      font-size: 12px; }
+    #mask #sigin-warp #agree {
+      font-size: 9px;
+      display: inline-block;
+      -webkit-transform: scale(0.95);
+      margin-left: 40px;
+      margin-top: 36px;
+      vertical-align: middle; }
+      #mask #sigin-warp #agree input {
+        vertical-align: middle; }
+    #mask #sigin-warp #submit {
+      width: 314px;
+      height: 40px;
+      margin-top: 35px;
+      border-radius: 4px;
+      outline: none;
+      border: 1px solid #b0b0b0;
+      margin-left: 42px;
+      color: #ffffff;
+      background-color: #187de2; }
+    #mask #sigin-warp #yetnumber {
+      font-size: 9px;
+      display: inline-block;
+      -webkit-transform: scale(0.95);
+      text-align: center;
+      margin-left: 121px;
+      margin-top: 55px;
+      color: #b0b0b0; }
+      #mask #sigin-warp #yetnumber span {
+        color: #187de2; }
+  #mask #register-warp {
+    width: 395px;
+    height: 580px;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 3px 5px 1px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden; }
+    #mask #register-warp #register-close {
+      float: right;
+      margin-right: 20px;
+      margin-top: 15px; }
+    #mask #register-warp #signup {
+      font-size: 24px;
+      color: #222222;
+      text-align: center;
+      margin-top: 33px;
+      text-indent: 40px; }
+    #mask #register-warp #register-username, #mask #register-warp #register-password, #mask #register-warp #register-password-agin {
+      width: 314px;
+      height: 40px;
+      margin-top: 30px;
+      border-radius: 4px;
+      outline: none;
+      border: 1px solid #b0b0b0;
+      margin-left: 42px;
+      color: #b0b0b0;
+      text-indent: 9px;
+      font-size: 12px; }
+    #mask #register-warp #sliderLock {
+      position: relative;
+      width: 314px;
+      height: 40px;
+      margin-top: 30px;
+      border-radius: 4px;
+      outline: none;
+      border: 1px solid #b0b0b0;
+      margin-left: 42px;
+      color: #b0b0b0;
+      text-indent: 9px;
+      font-size: 12px; }
+    #mask #register-warp #register-agree {
+      font-size: 9px;
+      display: inline-block;
+      -webkit-transform: scale(0.95);
+      margin-left: 40px;
+      margin-top: 36px;
+      vertical-align: middle; }
+      #mask #register-warp #register-agree input {
+        vertical-align: middle; }
+    #mask #register-warp #register-submit {
+      width: 314px;
+      height: 40px;
+      margin-top: 35px;
+      border-radius: 4px;
+      outline: none;
+      border: 1px solid #b0b0b0;
+      margin-left: 42px;
+      color: #ffffff;
+      background-color: #187de2; }
+    #mask #register-warp #register-yetnumber {
+      width: 395px;
+      font-size: 9px;
+      display: inline-block;
+      -webkit-transform: scale(0.95);
+      text-align: center;
+      margin-top: 35px;
+      color: #b0b0b0; }
+      #mask #register-warp #register-yetnumber span {
+        color: #187de2; }
+  #mask #forget-password {
+    width: 395px;
+    height: 451px;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 3px 5px 1px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px; }
+    #mask #forget-password #forget-close {
+      float: right;
+      margin-right: 20px;
+      margin-top: 15px; }
+    #mask #forget-password #reset {
+      font-size: 24px;
+      color: #222222;
+      text-align: center;
+      margin-top: 33px;
+      text-indent: 40px; }
+    #mask #forget-password #forget-username, #mask #forget-password #forget-pass, #mask #forget-password #forget-password-again {
+      width: 314px;
+      height: 40px;
+      margin-top: 30px;
+      border-radius: 4px;
+      outline: none;
+      border: 1px solid #b0b0b0;
+      margin-left: 42px;
+      color: #b0b0b0;
+      text-indent: 9px;
+      font-size: 12px; }
+    #mask #forget-password #forget-agree {
+      font-size: 9px;
+      display: inline-block;
+      -webkit-transform: scale(0.95);
+      margin-left: 40px;
+      margin-top: 36px;
+      vertical-align: middle; }
+      #mask #forget-password #forget-agree input {
+        vertical-align: middle; }
+    #mask #forget-password #forget-submit {
+      width: 314px;
+      height: 40px;
+      margin-top: 35px;
+      border-radius: 4px;
+      outline: none;
+      border: 1px solid #b0b0b0;
+      margin-left: 42px;
+      color: #ffffff;
+      background-color: #187de2; }
+  #mask #reset-nickname {
+    width: 395px;
+    height: 250px;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 3px 5px 1px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 4px; }
+    #mask #reset-nickname p {
+      font-size: 18px;
+      color: #222222;
+      margin-top: 15px;
+      text-indent: 40px; }
+    #mask #reset-nickname #nacknme {
+      width: 275px;
+      height: 40px;
+      margin-top: 25px;
+      border-radius: 4px;
+      outline: none;
+      border: 1px solid #b0b0b0;
+      margin-left: 42px;
+      color: #b0b0b0;
+      text-indent: 9px;
+      font-size: 12px; }
+    #mask #reset-nickname #nick-name-center {
+      width: 275px;
+      height: 35px;
+      margin-top: 25px;
+      border-radius: 4px;
+      outline: none;
+      margin-left: 40px;
+      color: #b0b0b0;
+      text-indent: 9px;
+      font-size: 12px; }
+      #mask #reset-nickname #nick-name-center #nick-input {
+        width: 120px;
+        height: 35px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #b0b0b0;
+        color: #b0b0b0;
+        text-indent: 9px;
+        font-size: 12px;
+        float: left; }
+      #mask #reset-nickname #nick-name-center #idcode {
+        width: 100px;
+        height: 35px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #b0b0b0;
+        text-indent: 9px;
+        font-size: 12px;
+        color: #ffffff;
+        background: #187de2;
+        margin-left: 12px;
+        text-align: center;
+        line-height: 35px;
+        display: inline-block;
+        font-size: 16px;
+        float: left; }
+      #mask #reset-nickname #nick-name-center img {
+        width: 23px;
+        height: 23px;
+        margin-top: 5px; }
+    #mask #reset-nickname #nackname-bottom {
+      width: 275px;
+      height: 35px;
+      margin-top: 25px;
+      border-radius: 4px;
+      outline: none;
+      margin-left: 32px;
+      color: #b0b0b0;
+      text-indent: 9px;
+      font-size: 12px; }
+      #mask #reset-nickname #nackname-bottom #nick-span {
+        width: 117px;
+        height: 35px;
+        color: #187de2;
+        display: inline-block;
+        border-radius: 4px;
+        line-height: 35px;
+        text-align: center;
+        border: 1px solid #187de2;
+        margin-left: 20px; }
+      #mask #reset-nickname #nackname-bottom #nick-submit {
+        width: 117px;
+        height: 35px;
+        background-color: #187de2;
+        color: #ffffff;
+        display: inline-block;
+        border-radius: 4px;
+        line-height: 35px;
+        text-align: center;
+        margin-left: 0; }
+  #mask #xiugai-touxiang {
+    width: 390px;
+    height: 440px;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 3px 5px 1px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 4px; }
+    #mask #xiugai-touxiang #touxiang-top {
+      margin-left: 25px;
+      margin-top: 10px; }
+      #mask #xiugai-touxiang #touxiang-top img {
+        margin-left: 175px; }
+    #mask #xiugai-touxiang #touxiang-center {
+      margin-top: 40px;
+      margin-left: 25px; }
+      #mask #xiugai-touxiang #touxiang-center #touxiang-left {
+        width: 243px;
+        height: 243px;
+        float: left; }
+        #mask #xiugai-touxiang #touxiang-center #touxiang-left #touxiang-left-top {
+          width: 243px;
+          height: 243px; }
+          #mask #xiugai-touxiang #touxiang-center #touxiang-left #touxiang-left-top img {
+            width: 243px;
+            height: 243px;
+            border-radius: 4px; }
+        #mask #xiugai-touxiang #touxiang-center #touxiang-left #touxiang-left-bottom {
+          color: #187de2;
+          margin-top: 7px; }
+          #mask #xiugai-touxiang #touxiang-center #touxiang-left #touxiang-left-bottom #right-icons {
+            float: right;
+            margin-top: 1px; }
+            #mask #xiugai-touxiang #touxiang-center #touxiang-left #touxiang-left-bottom #right-icons img {
+              width: 17px;
+              height: 17px;
+              margin-right: 10px; }
+            #mask #xiugai-touxiang #touxiang-center #touxiang-left #touxiang-left-bottom #right-icons img:nth-last-child {
+              margin-right: 0; }
+      #mask #xiugai-touxiang #touxiang-center #touxiang-right {
+        width: 90px;
+        height: 90px;
+        float: left;
+        margin-left: 15px;
+        border-radius: 50%; }
+        #mask #xiugai-touxiang #touxiang-center #touxiang-right img {
+          width: 90px;
+          height: 90px;
+          border-radius: 50%; }
+        #mask #xiugai-touxiang #touxiang-center #touxiang-right span {
+          font-size: 12px;
+          color: #222222;
+          text-align: center;
+          margin-left: 4px;
+          display: inline-block;
+          margin-top: 9px; }
+    #mask #xiugai-touxiang #touxiang-bottom {
+      overflow: hidden;
+      width: 215px;
+      margin: auto;
+      padding-top: 70px;
+      font-size: 12px; }
+      #mask #xiugai-touxiang #touxiang-bottom #touxiang-confirm {
+        width: 95px;
+        height: 30px;
+        float: left;
+        background-color: #187de2;
+        color: #ffffff;
+        display: inline-block;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 4px; }
+      #mask #xiugai-touxiang #touxiang-bottom #touxiang-canel {
+        width: 95px;
+        height: 30px;
+        float: left;
+        background-color: #ffffff;
+        color: #999999;
+        border: 1px solid #999999;
+        border-radius: 4px;
+        display: inline-block;
+        text-align: center;
+        line-height: 30px;
+        margin-left: 25px; }
+
+/*# sourceMappingURL=sigin.css.map */

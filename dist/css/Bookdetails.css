@@ -1,0 +1,296 @@
+.container {
+  width: 1366px;
+  margin: 0 auto; }
+
+#mianbaopaixu {
+  width: 1200px;
+  margin: auto;
+  padding-top: 20px;
+  color: #515151;
+  font-size: 12px; }
+
+#book-cover {
+  width: 1200px;
+  margin: 15px auto; }
+
+#book-cover-left {
+  width: 230px;
+  height: 300px;
+  border-radius: 5px;
+  float: left; }
+
+#book-cover-left > img {
+  width: 230px;
+  height: 300px;
+  border-radius: 5px; }
+
+#book-cover-right {
+  width: 950px;
+  height: 300px;
+  float: left;
+  margin-left: 20px; }
+
+#book-title {
+  font-size: 17px;
+  color: #000000;
+  margin-top: 23px; }
+
+#book-author {
+  font-size: 14px;
+  margin-top: 10px; }
+  #book-author #book-author-left {
+    color: #9a9a9a;
+    float: left; }
+  #book-author #book-author-right {
+    float: right; }
+
+#book-dispration {
+  margin-top: 14px;
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  color: #222222; }
+
+#classification {
+  width: 450px;
+  height: 105px; }
+  #classification #classification-item {
+    height: 29px;
+    line-height: 29px;
+    float: left;
+    color: #187de2;
+    border: classborder;
+    background: #eeeeee;
+    box-shadow: 3px 5px 4px 0px rgba(134, 152, 210, 0.4);
+    margin-right: 28px;
+    font-size: 14px;
+    margin-top: 30px;
+    border-radius: 5px; }
+    #classification #classification-item span {
+      margin-left: 10px;
+      margin-right: 10px;
+      display: inline-block; }
+
+#information {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #9f9f9f; }
+
+#chapter-warp {
+  width: 1190px;
+  margin: 0 auto;
+  padding-top: 20px;
+  overflow: hidden; }
+  #chapter-warp #chapter-warp-left {
+    width: 901px;
+    float: left;
+    overflow: hidden; }
+    #chapter-warp #chapter-warp-left #chapter-items-warp {
+      margin-top: 25px; }
+      #chapter-warp #chapter-warp-left #chapter-items-warp #chapter-item {
+        font-size: 14px;
+        color: #222222;
+        margin-top: 10px; }
+    #chapter-warp #chapter-warp-left #chapter-number-warp {
+      overflow: hidden; }
+    #chapter-warp #chapter-warp-left #directory, #chapter-warp #chapter-warp-left #chapter {
+      font-size: 20px;
+      overflow: hidden;
+      margin-top: 20px; }
+    #chapter-warp #chapter-warp-left #chapter-number {
+      width: 800px;
+      font-size: 14px;
+      color: #222222; }
+      #chapter-warp #chapter-warp-left #chapter-number #chapter-item {
+        margin-right: 70px;
+        margin-top: 30px;
+        float: left; }
+        #chapter-warp #chapter-warp-left #chapter-number #chapter-item #chapter-item span {
+          margin-left: 10px;
+          margin-right: 10px; }
+  #chapter-warp #chapter-warp-right {
+    width: 280px;
+    float: left; }
+    #chapter-warp #chapter-warp-right #chapter-warp-right-head {
+      font-size: 16px;
+      font-weight: 100;
+      color: #ffffff;
+      text-align: center;
+      width: 280px;
+      height: 50px;
+      line-height: 50px;
+      background: #187de2;
+      border-radius: 5px; }
+  #chapter-warp #best-ranking h2, #chapter-warp #month-best-ranking h2 {
+    font-size: 14px;
+    color: #222222;
+    font-weight: 400;
+    margin-top: 10px;
+    overflow: hidden; }
+    #chapter-warp #best-ranking h2 span, #chapter-warp #month-best-ranking h2 span {
+      width: 16px;
+      height: 16px;
+      display: inline-block;
+      background-color: #187de2;
+      border-radius: 50%;
+      color: #ffffff;
+      text-align: center;
+      line-height: 16px;
+      font-size: 12px; }
+    #chapter-warp #best-ranking h2 #best-ranking-content, #chapter-warp #month-best-ranking h2 #best-ranking-content {
+      margin-top: 10px;
+      margin-left: 20px; }
+      #chapter-warp #best-ranking h2 #best-ranking-content img, #chapter-warp #month-best-ranking h2 #best-ranking-content img {
+        width: 82px;
+        height: 106px;
+        float: left; }
+      #chapter-warp #best-ranking h2 #best-ranking-content p, #chapter-warp #month-best-ranking h2 #best-ranking-content p {
+        width: 150px;
+        height: 85px;
+        font-size: 13px;
+        color: #515151;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+        overflow: hidden;
+        float: left;
+        line-height: 17px;
+        margin-left: 10px;
+        margin-top: 7px; }
+
+#month-top {
+  margin-top: 15px; }
+
+#month-top-head, #hot-labels-head {
+  font-size: 16px;
+  font-weight: 100;
+  color: #ffffff;
+  text-align: center;
+  width: 280px;
+  height: 50px;
+  line-height: 50px;
+  background: #187de2;
+  border-radius: 5px;
+  margin-top: 15px; }
+
+#hot-labels-items-warp {
+  width: 280px; }
+  #hot-labels-items-warp #hot-labels-item {
+    font-size: 14px;
+    color: #222222;
+    float: left;
+    margin-top: 10px; }
+    #hot-labels-items-warp #hot-labels-item span {
+      margin-left: 15px;
+      margin-right: 15px;
+      display: inline-block;
+      background: #eee7ee; }
+
+#book-recommends-warp {
+  width: 100%;
+  overflow: hidden; }
+  #book-recommends-warp #book-recommends {
+    overflow: hidden; }
+    #book-recommends-warp #book-recommends h7 {
+      font-size: 20px;
+      float: left;
+      margin-top: 20px; }
+    #book-recommends-warp #book-recommends p {
+      float: right;
+      padding-top: 18px;
+      color: #187de2; }
+  #book-recommends-warp #book-recommends-item {
+    width: 210px;
+    margin-top: 20px;
+    float: left;
+    box-shadow: 3px 5px 4px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-size: 14px; }
+    #book-recommends-warp #book-recommends-item img {
+      width: 82px;
+      height: 103px;
+      float: left;
+      margin-left: 20px; }
+    #book-recommends-warp #book-recommends-item div {
+      float: left;
+      text-indent: 15px; }
+      #book-recommends-warp #book-recommends-item div #book-recommends-item-p {
+        color: #222222;
+        margin-top: 2px; }
+      #book-recommends-warp #book-recommends-item div p {
+        color: #9a9a9a; }
+
+#book-review {
+  margin-top: 25px;
+  font-size: 20px; }
+
+#comments-out {
+  width: 849px;
+  height: 259px;
+  background: #ffffff; }
+  #comments-out p {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px; }
+
+#comments-in {
+  width: 810px;
+  height: 190px;
+  font-size: 12px;
+  columns: #222222;
+  text-align: center;
+  line-height: 190px; }
+
+#cooment-main-warp {
+  width: 849px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 15px; }
+  #cooment-main-warp #recemmend-head {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; }
+  #cooment-main-warp #recemmend-head > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; }
+  #cooment-main-warp #recommend-right {
+    margin-left: 15px; }
+    #cooment-main-warp #recommend-right #username {
+      font-size: 20px;
+      color: #222222; }
+      #cooment-main-warp #recommend-right #username span {
+        width: 34px;
+        height: 18px;
+        background: #187de2;
+        color: #ffffff;
+        font-size: 12px;
+        text-align: center;
+        line-height: 18px;
+        margin-left: 30px;
+        display: inline-block;
+        border-radius: 3px; }
+    #cooment-main-warp #recommend-right #recommend-title {
+      font-size: 13px;
+      color: #515151;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      overflow: hidden;
+      margin-top: 10px; }
+    #cooment-main-warp #recommend-right #recommend-bottom {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: #515151;
+      margin-top: 10px; }
+
+#readmore {
+  height: 170px;
+  line-height: 170px;
+  text-align: center;
+  font-size: 14px; }
+
+/*# sourceMappingURL=Bookdetails.css.map */
